@@ -113,25 +113,11 @@ onUnmounted(() => {
 
 <style scoped>
 .scroll-text {
+    display: inherit;
     font-family: monospace;
     user-select: none;
     overflow: hidden;
     scroll-behavior: smooth;
-}
-
-.scrolling-text-box {
-    font-family: monospace;
-    user-select: none;
-    scroll-behavior: smooth;
-    overflow: hidden;
-    padding: 6px;
-    margin: 16px;
-    min-width: 100px;
-    height: 250px;
-    border-style: solid;
-    border-color: var(--vt-c-black-soft);
-    border-width: 2px;
-    border-radius: 16px;
 }
 
 @media (prefers-color-scheme: dark) {

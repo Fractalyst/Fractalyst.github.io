@@ -7,12 +7,19 @@ import PageHeader from './components/PageHeader.vue';
   <header>
     <PageHeader />
   </header>
-  <div class="view">
-    <RouterView />
+  <div class="center-content">
+    <div class="view">
+      <RouterView />
+    </div>
   </div>
 </template>
 
 <style scoped>
+.center-content {
+  display: flex;
+  place-items: center;
+}
+
 header {
   position: fixed;
   top: 0;
