@@ -1,6 +1,6 @@
 # Fractalyst Code
 
-This template should help get you started developing with Vue 3 in Vite.
+Hello and welcome to my personal website!
 
 ## Recommended IDE Setup
 
