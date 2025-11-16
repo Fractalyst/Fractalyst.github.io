@@ -17,6 +17,10 @@ import { Icon } from "@iconify/vue";
         <div class="router-icon"><Icon icon="mdi:book-outline" width="25" height="25" /></div>
         <div class="router-text">Projects</div>
       </RouterLink>
+      <RouterLink class="link" to="/speedysnake">
+        <div class="router-icon"><Icon icon="game-icons:sand-snake" width="25" height="25" /></div>
+        <div class="router-text">SpeedySnake Game</div>
+      </RouterLink>
     </nav>
     <nav class="header-right">
       <a class="link" href="mailto:fractarevia@gmail.com" target="_blank">
